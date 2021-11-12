@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "a356ce9e-fcff-449c-8ee8-b91a524c6665",
+		"name": "indx codechallenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get prices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8043/codechallenge/price?applicationDate=2020-06-15-00:00:00&productId=35455&brandId=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8043",
+					"path": [
+						"codechallenge",
+						"price"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-15-00:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
